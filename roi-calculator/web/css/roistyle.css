@@ -1,0 +1,599 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../images/background1.jpg);
+    background-size:cover;
+    width:100%;
+    margin:0 auto
+}
+
+.mainContent {
+    width: 1110px;
+    margin: auto;
+    height: 800px;
+    margin:0 auto;
+}
+
+.boxcontainer {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding: 15px;    
+    width: 320px;
+    font-size: 12px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 700px;
+    position: relative;
+    background-image: none;
+    background-color: rgba(255,255,255,0.2);
+}
+
+
+.basicappdesc {
+    background-color: #FFF;
+    padding: 8px;    
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -moz-box-shadow: inset 3px 3px 8px rgba(240,240,240,1);
+    -webkit-box-shadow: inset 3px 3px 8px rgba(240,240,240,1);
+    box-shadow: inset 3px 3px 8px rgba(240,240,240,1);
+    border: 1px solid #CCC;
+    margin-bottom: 10px;
+    position: relative;
+    height: auto;
+    position: relative;
+    display:none;
+}
+
+.suggestedAppdesc {
+    background-color: #FFF;
+    padding: 8px;    
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -moz-box-shadow: inset 3px 3px 8px rgba(240,240,240,1);
+    -webkit-box-shadow: inset 3px 3px 8px rgba(240,240,240,1);
+    box-shadow: inset 3px 3px 8px rgba(240,240,240,1);
+    border: 1px solid #CCC;
+    margin-bottom: 10px;
+    position: relative;
+    height: auto;
+    position: relative;
+    display:none;
+}
+
+input.text {
+
+    background-color: #FFF;
+    padding: 2px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -moz-box-shadow: inset 3px 3px 8px rgba(240,240,240,1);
+    -webkit-box-shadow: inset 3px 3px 8px rgba(240,240,240,1);
+    box-shadow: inset 3px 3px 8px rgba(240,240,240,1);
+    border: 1px solid #CCC;
+    font-size: 12px;
+    text-align: right;
+    width:102px;
+} 
+input.text:focus {
+    outline:none;
+    -moz-box-shadow: 0px 0px 5px rgba(31,183,234,1),
+        inset 3px 3px 8px rgba(240,240,240,1);
+    -webkit-box-shadow: 0px 0px 5px rgba(31,183,234,1),
+        inset 3px 3px 8px rgba(240,240,240,1);
+    box-shadow: 0px 0px 5px rgba(31,183,234,1),inset 3px 3px 8px rgba(240,240,240,1);
+
+}
+
+.suggestedapp {
+    background-color: #FFF;
+    padding: 5px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -moz-box-shadow: inset 3px 3px 8px rgba(240,240,240,1);
+    -webkit-box-shadow: inset 3px 3px 8px rgba(240,240,240,1);
+    box-shadow: inset 3px 3px 8px rgba(240,240,240,1);
+    border: 1px solid #CCC;
+    margin-bottom: 20px;
+}
+
+.suggestedapp:hover {
+    -moz-box-shadow: 0px 0px 5px rgba(31,183,234,1),
+        inset 3px 3px 8px rgba(240,240,240,1);
+    -webkit-box-shadow: 0px 0px 5px rgba(31,183,234,1),
+        inset 3px 3px 8px rgba(240,240,240,1);
+    box-shadow: 0px 0px 5px rgba(31,183,234,1),inset 3px 3px 8px rgba(240,240,240,1);
+}
+.boxcontainer h3 {
+    color: #FFFFFF;
+    margin: 0px;
+    font-size: 16px;	
+    font-weight: bold;
+}
+.suggestedapphint {
+    background-color: #FFF;
+    position: relative;
+    top: -20px;
+    padding: 5px;
+    width: 90%;
+    margin-left: 10px;
+    border-top-width: 0px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #CCC;
+    border-right-color: #CCC;
+    border-bottom-color: #CCC;
+    border-left-color: #CCC;
+}
+
+.header {
+    width: 1065px;
+    margin: 10px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;    
+    height: 30px;
+    padding-top: 17px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    background-image: url(../images/head.png);
+    background-repeat: no-repeat;
+}
+
+.row {
+    width:100%;
+    margin-bottom:5px;   
+    position:relative;
+    min-height: 20px;    
+    margin:auto;    
+}
+
+.generalRow {
+    margin-top:5px;
+}
+
+.left {
+    float: left;
+    width: 65%;
+    line-height: 12px;
+    color: #FFF;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.right {
+    float:right;
+    width:35%;    
+    text-align: right;
+}
+
+.leftS {
+    float: left;
+    width: 64%;
+    line-height: 12px;    
+    font-weight: normal;
+    font-size: 12px;
+}
+
+
+.rightS {
+    float:right;
+    width:35%;
+    line-height: 15px;
+    text-align: right;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+
+.my-tooltip {
+    position: absolute;
+    z-index: 1030;  
+    top:-5px;
+    left:320px;  
+    padding: 5px;
+    font-size: 12px;  
+    opacity: 0;
+    filter: alpha(opacity=0);
+    visibility: visible;    
+}
+
+.my-tooltip-inner {    
+    width:180px;    
+    padding: 3px 8px;  
+    text-align: left;
+    text-decoration: none;
+    border: 1px solid red;
+    background-color: white;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    min-height:18px;    
+    vertical-align: middle;
+}
+
+
+.my-tooltip-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.my-tooltip.top .my-tooltip-arrow {
+    bottom: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-top-color: red;
+    border-width: 5px 5px 0;
+}
+
+.my-tooltip.right .my-tooltip-arrow {
+    top: 50%;
+    left: 0;
+    margin-top: -5px;
+    border-right-color: red;
+    border-width: 5px 5px 5px 0;
+}
+
+.my-tooltip.left .my-tooltip-arrow {
+    top: 50%;
+    right: 0;
+    margin-top: -5px;
+    border-left-color: red;
+    border-width: 5px 0 5px 5px;
+}
+
+.my-tooltip.bottom .my-tooltip-arrow {
+    top: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-bottom-color: red;
+    border-width: 0 5px 5px;
+}
+
+.basicApps {
+    margin:auto; 
+    text-align: center;   
+}
+.basicApps img {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.suggestedApps {
+
+    margin:auto; 
+    text-align: center;   
+}
+.suggestedApps img {
+    margin-right: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.buttonArea {
+    position: absolute;
+    bottom: 10px;
+
+}
+
+.checkbox {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.checkboxArea {
+    cursor: pointer;
+    position:absolute; 
+    right:-10px;
+    top:-5px; 
+    width:19px;
+    height:15px;
+}
+
+.suggestedAppIconsArea {
+    position:relative;
+    display:inline-block;
+}
+
+.basicapparrow {
+    position: absolute;
+    top: -29px;
+    left:22px;
+    float: none;
+    clear: none;
+}
+
+select {
+    text-align:left;
+    margin-left:30px  ;
+
+    width:98px;
+}
+
+.dk_container {    
+    margin-bottom: 5px;
+    margin-left: 4px;
+}
+
+ul, ol {
+    padding: 0;
+    margin: 0 0 0 0px;
+    text-align:left;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.dk_container a {
+    color: #555555;   
+}
+
+.dk_option_current a {
+    background-color: #0084c7;
+    border-bottom-color: #004c72;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: rgba(0, 0, 0, .5) 0 1px 0;
+}
+
+.readDetail {
+    float:right;
+    cursor: pointer;
+}
+
+.contact {
+    background-image:url(../images/contact.jpg);
+}
+
+.flag {
+    cursor: pointer;
+    border-radius: 5px;
+    -moz-box-shadow: inset 1px 1px 5px rgba(0,0,0,1);
+    -webkit-box-shadow: inset 1px 1px 5px rgba(0,0,0,1);
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,1);    
+}
+
+.flagClicked {
+    cursor:pointer;
+    opacity:0.4;
+    filter:alpha(opacity=40);     
+}
+
+.flagActive {
+    border: solid 1px #fff;
+    box-shadow: 0px 0px 5px #FFF;        
+}
+
+.currency {
+    position:absolute;
+    top:12px;    
+    right:100px;
+    font-size:16px;
+    font-weight: bold;
+    color:#999;
+}
+
+.savingsArea {
+    margin-bottom: 10px;
+}
+
+.softfacts {
+    -webkit-box-shadow: inset 0px 0px 40px 0px #e1f8e6;
+    box-shadow: inset 0px 0px 40px 0px #e1f8e6;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: #FFF;
+    -webkit-box-shadow: inset 0px 0px 40px 0px #e1f8e6;
+    box-shadow: inset 0px 0px 40px 0px #e1f8e6;
+    height: 100px;    
+    width:305px;
+    overflow: hidden;
+}
+
+.totalAmount {
+    text-align: center;
+    margin-top:10px;
+
+}
+
+.savings {
+    height: 50px;
+    min-width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 12px 10px;
+    background: -moz-linear-gradient(
+        top,
+        #78ed93 0%,
+        #3fdc4c);
+    background: -webkit-gradient(
+        linear, left top, left bottom, 
+        from(#78ed93),
+        to(#3fdc4c));
+    background-image: linear-gradient(to bottom,#78ed93 0%, #3fdc4c 100%);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #3d6e38;
+    -moz-box-shadow:
+        0px 1px 13px rgba(22,240,29,0.5),
+        inset 0px 0px 10px rgba(3,3,3,0.7);
+    -webkit-box-shadow:
+        0px 1px 13px rgba(22,240,29,0.5),
+        inset 0px 0px 10px rgba(3,3,3,0.7);
+    box-shadow:
+        0px 1px 13px rgba(22,240,29,0.5),
+        inset 0px 0px 10px rgba(3,3,3,0.7);
+    text-shadow:
+        0px 0px 2px rgba(000,000,000,1),
+        0px 1px 0px rgba(255,255,255,0.2);
+}
+
+
+.dashboardArea {
+    height: 150px;
+}
+
+
+#animated_text{
+    width:100%;
+    height:100px;
+    margin:0 0 0 0;
+    border:0px solid red;
+}
+#animated_text ul{
+    display:none;
+}
+#animated_text ul li{
+    color:#EEE;
+}
+#animated_text ul li a{
+    color:#080063;
+    text-decoration:none;
+}
+
+.apple {    
+    position: absolute;    
+}
+
+#barDescription{
+    background: url(../images/background2.jpg);
+    background-size:cover;
+
+}
+
+
+.productMainImage {
+    BACKGROUND: #fff
+}
+
+.productVersion {
+    FONT-SIZE: 12px; LEFT: 10px; PADDING-BOTTOM: 15px; WIDTH: 118px; POSITION: relative; TOP: 10px
+}
+
+.productDescription {
+    PADDING-LEFT: 10px; MIN-HEIGHT: 110px; WIDTH: 612px; PADDING-TOP: 10px; HEIGHT: auto! important
+}
+
+.product {
+    MARGIN: 0px;
+    COLOR: #404040;
+    BACKGROUND-COLOR: #e0ddd9;
+    width: 750px;
+}
+.productHead {
+    PADDING-LEFT: 10px;
+    FONT-SIZE: 16px; 
+    font-weight: bold;
+    HEIGHT: 39px;
+    background-color: #FFF;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #A9A6A2;
+}
+.productHead STRONG {
+    POSITION: relative; TOP: 10px
+}
+
+
+.restable {
+    width:100%;
+}
+
+.restable_head {
+    height: 18px;
+    background-color: #646567;
+    color: #FFF;
+}
+.restable_total {
+    height: 16px;
+    font-weight: bold;
+    color: #000;
+    display: table-cell;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid #AAA;
+    border-top: 1px solid #AAA;
+    font-size: 12px;
+}
+.restable_normal {
+    color: #646567;
+}
+
+.restable_normal_detail {
+    color: #646567;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.restable_wrap {    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    padding-right: 5px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    width: 740px;            
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.totalSavingsRow {
+    height: 20px;
+    font-weight: bold;
+    color: #000;
+    display: table-cell;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid #AAA;
+    border-top: 1px solid #AAA;
+    font-size: 16px;
+}
+
+.trRow {
+    cursor:pointer;
+}
+.trRow:hover {
+    background-color: #CCC;
+}
+
+.scrollable_div {
+    height: 320px;
+    padding-right:5px;
+    overflow-y: scroll;
+    overflow-x: hidden; 
+}
+
+.flagArea {
+    position:absolute; 
+    margin-left:150px;
+    top:20px;
+}
